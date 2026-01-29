@@ -42,7 +42,7 @@ joblib==1.5.3
 kiwisolver==1.4.9
 MarkupSafe==3.0.3
 matplotlib==3.10.8
-mediapipe==0.10.9
+mediapipe>=0.10.30
 msgpack==1.1.2
 numpy==2.4.1
 opencv-contrib-python==4.13.0.90
@@ -50,6 +50,7 @@ opencv-python==4.13.0.90
 packaging==26.0
 pandas==3.0.0
 pillow==12.1.0
+pip>=25.0
 proto-plus==1.27.0
 protobuf==3.20.3
 pyasn1==0.6.2
@@ -74,3 +75,4 @@ tzdata==2025.3
 urllib3==2.6.3
 uvicorn==0.40.0
 Werkzeug==3.1.5
+
