@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 28px;
+  background: radial-gradient(circle at top, #1b1f39, #0b0f1f);
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.title {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 0.2px;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.badges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  color: white;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 10px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.badge.ok {
+  background: rgba(0, 255, 150, 0.12);
+  border-color: rgba(0, 255, 150, 0.25);
+}
+
+.badge.bad {
+  background: rgba(255, 50, 90, 0.12);
+  border-color: rgba(255, 50, 90, 0.25);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 18px;
+}
+
+.panel {
+  border-radius: 20px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.miniCard {
+  margin-top: 14px;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tips {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(255, 50, 90, 0.10);
+  border: 1px solid rgba(255, 50, 90, 0.18);
+}

@@ -1,0 +1,53 @@
+.card {
+  width: 420px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: rotateY(8deg) rotateX(4deg) scale(1.02);
+}
+
+.correct {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  animation: glowGreen 1.5s infinite alternate;
+}
+
+.wrong {
+  background: linear-gradient(135deg, #cb2d3e, #ef473a);
+  animation: glowRed 1.5s infinite alternate;
+}
+
+@keyframes glowGreen {
+  from {
+    box-shadow: 0 0 15px #00ffcc;
+  }
+  to {
+    box-shadow: 0 0 35px #00ffcc;
+  }
+}
+
+@keyframes glowRed {
+  from {
+    box-shadow: 0 0 15px #ff4b5c;
+  }
+  to {
+    box-shadow: 0 0 35px #ff4b5c;
+  }
+}
+
+.posture-img {
+  width: 220px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.tip {
+  margin-top: 15px;
+  font-size: 16px;
+}
